@@ -1,0 +1,193 @@
+.mywork{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    margin:80px 170px;
+
+}
+.mywork-title{
+    position:relative;
+}
+.mywork-title h1{
+    padding:0px 30px;
+    font-size:60px;
+    font-weight:600;
+}
+.mywork-title img{
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index:-1;
+}
+.mywork-container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:40px;
+}
+.mywork-container img{
+    box-sizing:border-box;
+    width:490px;
+    height:280px;
+    transition:0.4s;
+    cursor:pointer;
+
+}
+.mywork-container img:hover{
+transform:scale(1.10);
+border:4px solid #ff00ff;
+border-radius:10px;
+transition:0.3s;
+}
+.mywork-showmore{
+    display:flex;
+    gap:50px;
+    border-radius:50px;
+    border:2px solid white;
+    padding:20px 60px;
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:80px;
+    transition:0.5s;
+    cursor:pointer;
+}
+.mywork-showmore:hover{
+    gap:30px;
+    transition:0.6s;
+}
+
+/* .work-item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .work-buttons {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+  }
+  
+  .github-btn, .preview-btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+  }
+  
+  .github-btn {
+    background-color: #24292e;
+    color: white;
+  }
+  
+  .github-btn:hover {
+    background-color: #1a1e22;
+    opacity: 1;
+  }
+  
+  .preview-btn {
+    background-color: #0366d6;
+    color: white;
+  }
+  
+  .preview-btn:hover {
+    background-color: #0256b9;
+    opacity: 1;
+  }
+   */
+  /* Optional: Add a subtle overlay effect when hovering over the work item */
+  /* .work-item:hover img {
+    filter: brightness(0.9);
+  } */
+/* New styles with unique class names to avoid conflicts */
+.mywork-item-wrapper {
+    position: relative;
+    display: inline-block;
+    /* No changes to existing dimensions or layout */
+  }
+  
+  .mywork-overlay-buttons {
+    position: absolute;
+    top: 235px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+    pointer-events: none; /* This ensures clicks pass through to image if buttons aren't hovered */
+  }
+  
+  .mywork-github-link, .mywork-preview-link {
+    pointer-events: auto; /* Re-enable pointer events for the buttons themselves */
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .mywork-github-link {
+    background-color: #24292e;
+    color: white;
+  }
+  
+  .mywork-github-link:hover {
+    background-color: #1a1e22;
+  }
+  
+  .mywork-preview-link {
+    /* background-color: #0366d6; */
+    background:transparent;
+    /* border:2px solid #0366d6; */
+    border:2px solid #ff00ff;
+    color: #ff00ff;
+  }
+  
+  .mywork-preview-link:hover {
+    background-color: #ff00ff;
+    color:#fff;
+  }
+
+
+@media(max-width:768px){
+    .mywork{
+        gap:50px;
+        margin:50px 70px;
+        align-items:center;
+
+    }
+    .mywork-title h1{
+        padding:0;
+        font-size:50px;
+        font-weight:600;
+    }
+    .mywork-title img{
+        width:130px;
+        margin-right:100px;
+    }
+    .mywork-container{
+        grid-template-columns:1fr 1fr;
+        gap:30px;
+    }
+    .mywork-container img{
+        width:100%;
+        height:100%;
+    }
+    .mywork-showmore{
+        padding:20px 40px;
+        font-size:18px;
+        margin:50px auto;
+        cursor:pointer;
+    }
+}
