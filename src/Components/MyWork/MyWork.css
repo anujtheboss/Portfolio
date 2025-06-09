@@ -3,8 +3,8 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    gap:80px;
-    margin:80px 170px;
+    gap:30px;
+    /* margin:80px 170px; */
 
 }
 .mywork-title{
@@ -28,7 +28,7 @@
 }
 .mywork-container img{
     box-sizing:border-box;
-    width:490px;
+    width:400px;
     height:280px;
     transition:0.4s;
     cursor:pointer;
