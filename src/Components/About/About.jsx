@@ -33,7 +33,7 @@ My background spans both front-end and back-end development, and I enjoy working
                         <p>DATA ANALYSIS</p><hr style={{width:"70%",marginLeft:"9px"}} />
                     </div>
                     <div className="about-skill">
-                        <p>MACHINE/DEEP LEARNING</p><hr style={{width:"80%",marginLeft:"-96px"}} />
+                        <p>MACHINE/DEEP LEARNING</p><hr style={{width:"80%",marginLeft:"-78px"}} />
                     </div>
                 </div>
             </div>
