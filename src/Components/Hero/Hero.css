@@ -48,6 +48,7 @@ margin-bottom:50px;
     border:2px solid #FFF;
     /* background:linear-gradient(264deg,#DF8908 -5.09%, #B415FF 106.28%); */
     cursor:pointer;
+    text-decoration:none;
 }
 .hero-connect:hover{
     border:2px solid white;
