@@ -22,18 +22,18 @@ const About = () => {
 My background spans both front-end and back-end development, and I enjoy working across the full stack to bring ideas to life — whether it's creating seamless user interfaces or optimizing server performance.</p>
                     {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sint perferendis et aspernatur vel accusamus fugit ducimus possimus a. Quae.</p> */}
                 </div>
-                <div className="about-skills">
+                   <div className="about-skills">
                     <div className="about-skill">
-                        <p>HTML&CSS</p><hr style={{width:"50%"}} />
+                        <p>REACT JS</p><hr style={{width:"50%", marginLeft:"28px"}} />
                     </div>
                     <div className="about-skill">
-                        <p>REACT JS</p><hr style={{width:"60%"}} />
+                        <p>DJANGO/FASTAPI</p><hr style={{width:"60%",marginLeft:"-19px"}} />
                     </div>
                     <div className="about-skill">
-                        <p>JAVASCRIPT</p><hr style={{width:"70%"}} />
+                        <p>DATA ANALYSIS</p><hr style={{width:"70%",marginLeft:"9px"}} />
                     </div>
                     <div className="about-skill">
-                        <p>NEXT JS</p><hr style={{width:"80%"}} />
+                        <p>MACHINE/DEEP LEARNING</p><hr style={{width:"80%",marginLeft:"-96px"}} />
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ My background spans both front-end and back-end development, and I enjoy working
 
     <div className="about-achievements">
         <div className="about-achievement">
-            <h1>1+</h1>
+            <h1>3+</h1>
             <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
